@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Menu</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            font-weight: bolder;
+        }
+
+        div:hover {
+            color: white;
+            font-weight: bolder;
+            background-color: blue;
+            width: 300px;
+        }
+
+        div > ul {
+            display: none;
+        }
+
+        div:hover > ul {
+            display: block;
+        }
+
+        ul {
+            color: black;
+            background-color: aqua;
+        }
+
+        li {
+            margin-left: 1px;
+        }
+
+        li {
+            text-align: left;;
+            padding: 5px;
+            margin-left: -40px;
+            
+        }
+
+        .especial:hover {
+            color: white;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Este é um exemplo de menu</h1>
+    <div>
+        Tipos de investimentos
+        <ul style="list-style: none;">
+            <li class="especial">FII</li>
+            <li class="especial">Ações</li>
+            <li class="especial">Debêntures</li>
+            <li class="especial">LCI</li>
+            <li class="especial">LCA</li>
+            <li class="especial">CDI</li>
+        </ul>
+    </div>
+</body>
+</html>
