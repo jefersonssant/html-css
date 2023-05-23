@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* Shorthand - bacground
+            color > image > position > repeat > [size] > attachment */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +34,8 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, fugiat? Nulla, temporibus iusto commodi dignissimos at unde facilis magni, voluptate distinctio sapiente perspiciatis nisi inventore vitae excepturi dolor possimus incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae, iusto doloremque sint hic veniam, exercitationem doloribus officiis, nam est nemo ad labore numquam aliquid cumque alias nesciunt ea perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis necessitatibus itaque repudiandae eligendi enim molestiae, quas libero sequi rerum nemo in alias aut nulla nostrum voluptas nisi aliquid amet?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, fugiat? Nulla, temporibus iusto commodi dignissimos at unde facilis magni, voluptate distinctio sapiente perspiciatis nisi inventore vitae excepturi dolor possimus incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae, iusto doloremque sint hic veniam, exercitationem doloribus officiis, nam est nemo ad labore numquam aliquid cumque alias nesciunt ea perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis necessitatibus itaque repudiandae eligendi enim molestiae, quas libero sequi rerum nemo in alias aut nulla nostrum voluptas nisi aliquid amet?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, fugiat? Nulla, temporibus iusto commodi dignissimos at unde facilis magni, voluptate distinctio sapiente perspiciatis nisi inventore vitae excepturi dolor possimus incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae, iusto doloremque sint hic veniam, exercitationem doloribus officiis, nam est nemo ad labore numquam aliquid cumque alias nesciunt ea perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis necessitatibus itaque repudiandae eligendi enim molestiae, quas libero sequi rerum nemo in alias aut nulla nostrum voluptas nisi aliquid amet?</p>    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, fugiat? Nulla, temporibus iusto commodi dignissimos at unde facilis magni, voluptate distinctio sapiente perspiciatis nisi inventore vitae excepturi dolor possimus incidunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae, iusto doloremque sint hic veniam, exercitationem doloribus officiis, nam est nemo ad labore numquam aliquid cumque alias nesciunt ea perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis necessitatibus itaque repudiandae eligendi enim molestiae, quas libero sequi rerum nemo in alias aut nulla nostrum voluptas nisi aliquid amet?</p>
     </main>
 </body>
 </html>
